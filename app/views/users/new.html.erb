@@ -25,16 +25,68 @@
 #  <%= submit_tag "Submit" %>
 #<% end %>
 -->
-
+<div class='container'>
 <%= form_with model: @user do |form| %>
   <%= form.label :username, "Username:" %>
-  <%= form.text_field :username %>
+  <br />
+  <%= form.text_field :username, placeholder: "Enter Name"%>
   <br /><br />
   <%= form.label :email, "Email:" %>
-  <%= form.text_field :email %>
+  <br />
+  <%= form.text_field :email, placeholder: "Enter Email"%>
   <br /><br />
   <%= form.label :password, "Password:" %>
-  <%= form.text_field :password %>
+  <br />
+  <%= form.text_field :password, placeholder: "Enter Password"%>
   <br /><br />
-  <%= form.submit "Submit" %>
+  <%= form.submit "Submit", class: "submit" %>
 <% end %>
+</div>
+
+<style>
+  body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+ .container{
+   height: 50vh;
+   width: 50vw;
+   display: flex;
+   padding: 30px;
+   align-items: center;
+   justify-content: center;
+ }
+ input {
+   outline: none;
+   margin-top: 1rem;
+ }
+ input::placeholder{
+   color: red;
+ }
+ label {
+   font-size: 25px;
+ }
+ .submit {
+   background: green;
+   color: white;
+   height: 1.7rem;
+   width: 7rem;
+ }
+ .submit:hover {
+   background: white;
+   color: green;
+ }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
