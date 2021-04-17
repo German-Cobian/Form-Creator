@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps:
 
 ### Usage
 
-The front end ( http://localhost:3000/users/new ) displays a form which allows a user to input their username, email and password. The back end shows the server output and/or any errors stack trace. None of the input fields can be blank on the edit page: http://localhost:3000/users/1. On the edit page, if a user tries submitting a form that fails the validations, a list of error messages attached to the failed model is displayed.
+The front end ( http://localhost:3000/users/new ) displays a form which allows a user to input their username, email and password. The back end shows the server output and/or any errors stack trace. None of the input fields can be blank on the edit page: http://localhost:3000/users/1.
 
 
 ## Authors
