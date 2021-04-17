@@ -23,14 +23,14 @@ To get a local copy up and running follow these simple example steps:
 
 ### Setup and Install
 
-* Open your terminal - Windows: >Win + R<, then type >cmd< | Mac: >Command + space<, then type >Terminal<
-* Navigate to a directory of your choosing using the >cd< command
-* Run this command in your OS terminal: >git clone git@github.com:German-Cobian/Re-former.git< to get a copy of the project.
-* Navigate to the project's directory using the >cd< command
-* Execute >rails server< to fire up the server
-* Visit >http://localhost:3000/users/new< to see the form on your browser
-* The edit page handles editing an existing user. The page is found by visiting >http://localhost:3000/users/1<
-* To close the server, enter >Ctrl + C< in your terminal
+* Open your terminal - Windows: Win + R, then type cmd | Mac: Command + space, then type Terminal
+* Navigate to a directory of your choosing using the cd command
+* Run this command in your OS terminal: git clone git@github.com:German-Cobian/Re-former.git to get a copy of the project.
+* Navigate to the project's directory using the cd command
+* Execute rails server to fire up the server
+* Visit http://localhost:3000/users/new to see the form on your browser
+* The edit page handles editing an existing user. The page is found by visiting http://localhost:3000/users/1
+* To close the server, enter Ctrl + C in your terminal
 
 ### Usage
 
