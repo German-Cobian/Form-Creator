@@ -1,6 +1,7 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
 body{
     display: grid;
     place-items: center;
@@ -34,38 +35,3 @@ body{
    background: white;
    color: green;
  }
-
-
- body{
-  display: grid;
-  place-items: center;
-  height: 100vh;
-}
-.container{
- height: 50vh;
- width: 50vw;
- display: flex;
- padding: 30px;
- align-items: center;
- justify-content: center;
-}
-input {
- outline: none;
- margin-top: 1rem;
-}
-input::placeholder{
- color: red;
-}
-label {
- font-size: 25px;
-}
-.submit {
- background: green;
- color: white;
- height: 1.7rem;
- width: 7rem;
-}
-.submit:hover {
- background: white;
- color: green;
-}
