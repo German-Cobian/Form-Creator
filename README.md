@@ -35,10 +35,10 @@ To get a local copy up and running follow these simple example steps:
 The front end ( http://localhost:3000/users/new ) displays a form which allows a user to input their username, email and password. The back end shows the server output and/or any errors stack trace. None of the input fields can be blank on the edit page: http://localhost:3000/users/1.
 
 ## Features
-> * All actions starts from the form at the root url `http://localhost:3000`
+* All actions starts from the form at the root url `http://localhost:3000`
 * Users, password and email must be created with some validations check (Name must be at least 5 characters long, password, email must be at least 7 characters and password must be at least 8 characters long)
 * Each User is created and assigned an index automatically by rails
-* Each users can be accessed using rails routing system. User can be added as there is no limit to that.<
+* Each users can be accessed using rails routing system. User can be added as there is no limit to that.
 
 
 ## Authors
