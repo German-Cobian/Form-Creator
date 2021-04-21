@@ -47,7 +47,7 @@ The front end ( http://localhost:3000/users/new ) displays a form which allows a
 
 * GitHub: [@promise-J](https://github.com/promise-J)
 * Twitter: [@Promise94353263](https://twitter.com/Promise94353263)
-* LinkedIn: [LinkedIn](https://www.linkedin.com/in/promise-chiemela-788887142/)
+* LinkedIn: [LinkedIn](https://www.linkedin.com/in/promise-chiemela)
 
 👤 **German Cobian**
 
