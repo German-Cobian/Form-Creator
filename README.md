@@ -25,6 +25,7 @@ To get a local copy up and running follow these simple example steps:
 * Navigate to a directory of your choosing using the `cd` command
 * Run this command in your OS terminal: `git clone git@github.com:German-Cobian/Form-Creator.git` to get a copy of the project.
 * Navigate to the project's directory using the `cd` command
+
 * Run `rails webpacker:install` to configure Webpacker for your environment
 * Install dependencies by running `bundle install`
 * Migrate the database to your environment by running `rails db:migrate`
@@ -37,6 +38,7 @@ To get a local copy up and running follow these simple example steps:
 ### Usage
 
 The front end ( `http://localhost:3000/users/new` ) displays a form which allows a user to input their username, email and password. The back end shows the server output and/or any errors stack trace. None of the input fields can be blank on the edit page: `http://localhost:3000/users/:id`.
+
 
 
 ## Features
@@ -74,7 +76,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 Guidelines for project supplied by [The Odin Project](https://www.theodinproject.com/lessons/ruby-on-rails-forms)
-
 
 ## 📝 License
 
