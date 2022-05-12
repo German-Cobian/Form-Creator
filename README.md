@@ -1,11 +1,10 @@
-# Re-former
+# Form-Creator
 
-An app which allows the user to input and save his/her username, email address and password.
+A Rails app which allows the user to input and save his/her username, email address and password.
 
-This project was an exercise in the building of forms, from HTML to using the helper methods that Rails provides (#form_tag and #form_with). The Rails way sends parameters to a controller which builds for the view an instance of a model with those parameters.
+![Form](/app/assets/images/Form.png?raw=true "Form")
 
-![Captura de Pantalla 2021-04-15 a la(s) 14 14 36](https://user-images.githubusercontent.com/68709712/114939235-03216280-9df5-11eb-9d0e-aa1de66995d6.png)
-
+This project was an exercise in the building of forms, starting with HTML then using the helper methods that Rails provides (#form_tag and #form_with). The Rails way sends parameters to a controller which builds an instance of the model for the view.
 
 ## Getting Started
 
@@ -24,20 +23,22 @@ To get a local copy up and running follow these simple example steps:
 
 * Open your terminal - Windows: `Win + R`, then type cmd | Mac: `Command + space`, then type `Terminal`
 * Navigate to a directory of your choosing using the `cd` command
-* Run this command in your OS terminal: git clone `git@github.com:German-Cobian/Re-former.git` to get a copy of the project.
+* Run this command in your OS terminal: `git clone git@github.com:German-Cobian/Form-Creator.git` to get a copy of the project.
 * Navigate to the project's directory using the `cd` command
-* Run `rails webpacker:install` to configure Webpacker for your environment. Otherwise, an error like `Webpacker::Manifest::MissingEntryError` will appear if you attempt to run the server.
+
+* Run `rails webpacker:install` to configure Webpacker for your environment
 * Install dependencies by running `bundle install`
 * Migrate the database to your environment by running `rails db:migrate`
-* Navigate to the bin folder of the project using the `cd` command and then execute `rails server` to fire up the server
-* Visit `http://localhost:3000/users/new` to see the form on your browser
-* Create, edit and update the users credentials as you want. Do worry, you are already an Admin.
+* Navigate to the bin folder of the project using the `cd` command and then execute `rails server` or `rail s` to fire up the server
+* Navigate to `http://localhost:3000/users/new` to see the new user form on your browser
+* Once you've created a user, you can edit or update the same by navigating to `http://localhost:300/users/:id/edit` where `:id` is the actual number associated to that user
 * To close the server, enter `Ctrl + C` in your terminal
 
 
 ### Usage
 
-The front end ( http://localhost:3000/users/new ) displays a form which allows a user to input their username, email and password. The back end shows the server output and/or any errors stack trace. None of the input fields can be blank on the edit page: http://localhost:3000/users/1.
+The front end ( `http://localhost:3000/users/new` ) displays a form which allows a user to input their username, email and password. The back end shows the server output and/or any errors stack trace. None of the input fields can be blank on the edit page: `http://localhost:3000/users/:id`.
+
 
 
 ## Features
@@ -74,9 +75,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Guidelines for project supplied by [The Odin Project](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/forms)
-
+Guidelines for project supplied by [The Odin Project](https://www.theodinproject.com/lessons/ruby-on-rails-forms)
 
 ## 📝 License
 
-This project is [MIT](https://github.com/German-Cobian/Re-former/blob/re-former-feature/LICENSE) licensed.
+This project is [MIT](https://github.com/German-Cobian/Form-Creator/blob/main/LICENSE) licensed.
