@@ -1,6 +1,6 @@
-# Re-former
+# Form-Creator
 
-An app which allows the user to input and save his/her username, email address and password.
+A Rails app which allows the user to input and save his/her username, email address and password.
 
 ![Form](/app/assets/images/Form.png?raw=true "Form")
 
@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps:
 
 * Open your terminal - Windows: `Win + R`, then type cmd | Mac: `Command + space`, then type `Terminal`
 * Navigate to a directory of your choosing using the `cd` command
-* Run this command in your OS terminal: git clone `git@github.com:German-Cobian/Re-former.git` to get a copy of the project.
+* Run this command in your OS terminal: `git clone git@github.com:German-Cobian/Form-Creator.git` to get a copy of the project.
 * Navigate to the project's directory using the `cd` command
 * Run `rails webpacker:install` to configure Webpacker for your environment
 * Install dependencies by running `bundle install`
@@ -78,4 +78,4 @@ Guidelines for project supplied by [The Odin Project](https://www.theodinproject
 
 ## 📝 License
 
-This project is [MIT](https://github.com/German-Cobian/Re-former/blob/re-former-feature/LICENSE) licensed.
+This project is [MIT](https://github.com/German-Cobian/Form-Creator/blob/main/LICENSE) licensed.
